@@ -1,0 +1,127 @@
+.bookingCard{
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 40px 40px 40px 5px;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+}
+.Date{
+
+}
+.DateTitle{
+    font-weight: 700;
+    font-size: 20px;
+}
+.title{
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.orders{
+    margin-top: 20px;
+}
+
+
+.line{
+    z-index: 1;
+    top: 18px;
+    position: absolute;
+    left: 30px;
+    width: 95%;
+    height: 5px;
+    background-color: #fff;
+}
+.status{
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #FFFFFF, 5px 5px 20px #D3D3D3;
+}
+.currentStatus {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #212629;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05), 15px 15px 20px rgba(0, 0, 0, 0.15);
+}
+.statusBar{
+    margin-top: 40px;
+}
+.statusBarStatus{
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+}
+.statusGroup{
+    z-index: 2;
+    text-align: center;
+}
+.success{
+    font-weight: 700;
+    font-size: 150px;
+}
+
+.order{
+    padding: 10px 25px;
+    margin-top: 40px;
+    background: #F2F2F2;
+    border-radius: 20px 20px 20px 5px;
+}
+.orderImg{
+    background-color: #FC9002;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.orderImg img{
+    width: 100%;
+}
+.orderItem{
+    padding: 20px 0;
+}
+.orderContent{
+    display: flex;
+    align-items: center;
+}
+.orderTitle{
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.subTitle{
+    margin-left: auto;
+    font-weight: 300;
+    font-size: 14px;
+    color: #828586;
+    padding-right: 40px;
+}
+.subTitle span {
+    margin-right: auto;
+}
+.orderPrice{
+    margin-left: auto;
+    font-weight: 700;
+    font-size: 18px;
+}
+.delivery{
+    margin-top: 15px;
+    padding: 20px 0;
+    border-top: 1px solid #E1E2E2;
+    display: flex;
+}
+.deliveryTitle{
+    font-weight: 700;
+    font-size: 18px;
+}
+.deliveryPrice{
+    margin-left: auto;
+}
+.totalPrice{
+
+    padding: 20px 0;
+    border-top: 1px solid #E1E2E2;
+    display: flex;
+}

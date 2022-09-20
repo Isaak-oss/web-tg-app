@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Gilroy Regular';
+  src: local('Gilroy Black'), url(./Components/Common/Gilroy-Font-Family/gilroy/Gilroy-Regular.ttf) format('woff');
+}
+*{
+  font-family: "Gilroy Regular";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #E9E9E9;
+}
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.Row{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.relative{
+  position: relative;
+}
+.backIcon{
+  left: -50px;
+  top: 16px;
+  position: absolute;
+}
+

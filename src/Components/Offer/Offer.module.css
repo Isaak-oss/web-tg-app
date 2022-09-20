@@ -1,0 +1,242 @@
+.Offer{
+    background-color: #E9E9E9;
+    padding-top: 30px;
+}
+
+.onlyTowers{
+    max-width: 1250px;
+    margin: 20px 30px 70px;
+    position: relative;
+    background: #E9E9E9;
+    min-height: 400px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05), 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 80px 80px 80px 5px;
+    min-height: 500px;
+    padding: 40px 60px 0;
+    overflow: hidden;
+
+}
+.onlyTowersText{
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 22px;
+    color: #212629;
+}
+.onlyTowersTitle{
+    display: flex;
+}
+.onlyTowers h3{
+    font-weight: 700;
+    font-size: 120px;
+}
+.onlyTowers h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: auto;
+}
+.towersBannerImg{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+.deliveruFromKitchen{
+    margin: 20px 30px 70px;
+    position: relative;
+    min-height: 500px;
+    max-width: 1250px;
+    background: #212629;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05), 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 80px 80px 80px 5px;
+    padding: 40px 60px 0;
+}
+.deliveryBannerImg{
+    position: absolute;
+    right: 0;
+    top: -70px;
+}
+.deliveruFromKitchen h3{
+    color: white;
+
+    font-weight: 700;
+    font-size: 50px;
+}
+.deliveruFromKitchen button{
+    margin-top: 40px;
+    color: #FE9102;
+    font-weight: 700;
+    font-size: 18px;
+    background: #212629;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5), -1px -1px 6px rgba(255, 255, 255, 0.05), -5px -5px 20px rgba(255, 255, 255, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.8);
+    border-radius: 99px;
+    padding: 8px 10px 8px 30px;
+    display: flex;
+    align-items: center;
+}
+.deliveryBannerButtonImg{
+padding-top: 1px;
+    padding-left: 20px;
+}
+.b{
+    width: 300px;
+
+}
+.ItemTextContent{
+    min-height: 170px;
+}
+.MenuItemItem{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    border-radius: 40px 40px 40px 0px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    max-width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+
+.item:hover .Itemformation{
+    background-color: #212629;
+}
+.item:hover .ItemInformationTitle{
+    color: #ffffff;
+}.item:hover .MenuButton{
+    color: #ffffff;
+}.item:hover .ItemCount{
+    color: #ffffff;
+}
+.item:hover .AddOrderButton{
+    background: #212629;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5), -1px -1px 6px rgba(255, 255, 255, 0.05), -5px -5px 20px rgba(255, 255, 255, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.8);
+    border-radius: 99px;
+}
+.MenuItemImg{
+    position: relative;
+    border-radius: 40px 40px 0 0;
+}
+.MenuItemImg img{
+    width: 100%;
+
+}
+.unlike{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+.like{
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    left: 20px;
+    top: 20px;
+}
+.noPhoto{
+    width: 370px;
+    height: 370px;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    justify-content: center;
+}
+.MenuSpicyIcon{
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    bottom: -5px;
+    border-radius: 50px;
+    left: 10px;
+}
+.MenuSpicyIcon img{
+    width: 40px;
+    padding: 8px;
+
+}
+.Itemformation{
+    background-color: #E9E9E9;
+    padding: 15px;
+    border-radius: 0px 0px 40px 0px;
+    transition: 500ms ease;
+}
+.ItemInformationTitle{
+    font-weight: 700;
+    font-size: 25px;
+}
+.ItemInformationWeightAndPrice{
+    padding: 10px 0 10px 0;
+    font-weight: 300;
+    font-size: 16px;
+    color: #A5A5A7;
+}
+.ItemInformationTetx{
+    font-weight: 300;
+    font-size: 17px;
+    color: #80807c;
+
+}
+.Count{
+    margin-top:20px;
+    border: 1px solid #ffffff;
+    border-radius: 99px;
+    display: Flex;
+    color:black;
+}
+.MenuButton{
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+    color: black;
+}
+.ItemCount{
+    font-size: 23px;
+    padding: 2px 20px 5px 20px;
+    color: black;
+}
+.AddOrderButton{
+    border: none;
+    background: #E9E9E9;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #FFFFFF, 5px 5px 20px #D3D3D3;
+    border-radius: 99px;
+    font-size: 23px;
+    margin-top: 20px;
+    padding: 5px 48px 5px 48px;
+    color: #FE9102;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 300ms ease;
+}
+.AddButton:hover{
+    transform: scale(1.05);
+}
+.OfferCategory{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.categoryName{
+    font-weight: 300;
+    font-size: 20px;
+    background: #E9E9E9;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08), -1px -1px 6px rgba(255, 255, 255, 0.5), -5px -5px 20px #FFFFFF, 5px 5px 20px #D3D3D3;
+    border-radius: 99px;
+    padding: 5px 30px;
+    transition: 500ms ease;
+    cursor: pointer;
+    margin: 20px 20px 0 20px;
+
+}
+.categoryName:hover{
+    transform: scale(1.05);
+}
+.filtredOne{
+    font-weight: 700;
+    font-size: 36px;
+    padding: 30px 20px 0 45px;
+}
